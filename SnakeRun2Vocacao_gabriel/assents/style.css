@@ -1,0 +1,118 @@
+@charset "UTF-08";
+
+/* 
+:root {
+--????
+}
+*/
+
+*
+
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+body{
+    background-image: url(jamorango.gif);
+    background-size: cover;
+}
+
+main {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* background-color: #4d9ae2a1; */
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1 {
+    font-size: 1.9em;
+    color: #428df0;
+
+}
+
+canvas {
+    background-color: #5f92cc4f;
+    /* background-image: url(ja12.jpg); */
+    align-items: center;
+    border: 10px solid #5f92cc;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.8rem;
+    color: #80acff;
+
+}
+
+.score--value {
+    font-weight: 700;
+    font-size: 4.5rem;
+    display: block;
+    margin-top: -10px;
+}
+
+.menu-screen {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.game-over {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #92b7fd;
+}
+
+.final-score {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.btn-play {
+    border: none;
+    border-radius: 100px;
+    padding: 10px 15px 10px 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #013269;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+footer {
+    padding: 7px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: none;
+    color: #e2f2ff;
+    min-width: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+/*
+*
+*/
