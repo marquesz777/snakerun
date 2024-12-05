@@ -41,7 +41,11 @@ const randomNumber = (min, max) => {
   return Math.round(Math.random() * (max - min) + min)
 }
 
-
+document.addEventListener("keydown", function (event) {
+  if (event.key === "Enter") { // Verifica se a tecla Enter foi pressionada
+      document.querySelector(".btn-play").click();
+  }
+});
 
 //Definir uma posição da Appple dentro do canvas
 const randomPosition = () => {
