@@ -92,7 +92,7 @@ const drawSnake = () => {
 
   snake.forEach((position, index) => {
     if (index == snake.length - 1) {
-      ctx.fillStyle = "#013269"
+      ctx.fillStyle = "#92b7fd"
     }
 
     ctx.fillRect(position.x, position.y, size, size)
