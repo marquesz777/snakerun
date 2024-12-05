@@ -7,9 +7,15 @@
 */
 
 *
+/* @font-face {
+    font-family: '';
+    src: url('fonts/.ttf), format('truetype');
+
+} */
 
 
 {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,6 +25,7 @@
 
 
 body{
+    /* font-family: '', sans-serif; */
     background-image: url(jamorango.gif);
     background-size: cover;
 }
@@ -41,7 +48,7 @@ h1 {
 }
 
 canvas {
-    background-color: #5f92cc4f;
+    background-color: #5f92cc3f;
     /* background-image: url(ja12.jpg); */
     align-items: center;
     border: 10px solid #5f92cc;
